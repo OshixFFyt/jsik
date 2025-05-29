@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/taskcss.css">
+    <script defer src="js/tasker.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Менеджер задач</h1>
+        <form id="form-create-task" action="" >
+            <input type="text" id="new-task" placeholder="Введите задачу"><br>
+            <input type="submit" id="btn" value="создать задачу">
+
+        </form>
+        <div class="container">
+            <div class="task immedients">
+                <span>купить мясо</span>
+            </div>
+            <div class="task">
+                <span>пожарить мясо</span>
+            </div>
+            <div class="task immedients">
+                <span>покушать мясо</span>
+            </div>
+        </div>
+        <button id="btn-remove">удалить все</button>
+    </div>
+</body>
+</html>
